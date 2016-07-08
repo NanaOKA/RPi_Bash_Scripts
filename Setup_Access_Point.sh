@@ -1,4 +1,4 @@
-#!/bin/sh 
+#!/bin/bash 
 
 # Install needed packages
 sudo apt-get --assume-yes install hostapd udhcpd
