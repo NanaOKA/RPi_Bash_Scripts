@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # This script set some basic bash aliases and vim comfiguration to feel at home
 # when using the sailrobot
 # It only includes widely used configurations
