@@ -33,7 +33,7 @@ yes | sudo pip install rosdep rosinstall_generator wstool rosinstall
 
 # Initialize Rosdep
 sudo rosdep init
-sudo rosdep update
+rosdep update
 
 # Create Catkin Workspace
 sudo mkdir ~/ros_catkin_ws
