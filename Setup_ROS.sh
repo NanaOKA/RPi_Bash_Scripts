@@ -32,7 +32,7 @@ sudo apt-get --assume-yes install python-pip python-setuptools python-yaml pytho
 yes | sudo pip install rosdep rosinstall_generator wstool rosinstall
 
 # Initialize Rosdep
-sudo rosdep init
+rosdep init
 rosdep update
 
 # Create Catkin Workspace
