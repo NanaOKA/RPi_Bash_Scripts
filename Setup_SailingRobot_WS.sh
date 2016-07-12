@@ -3,7 +3,7 @@
 cd ~
 
 # Clone from git
-git clone https://github.com/Maritime-Robotics-Student-Society/sailing-robot.git
+sudo git clone https://github.com/Maritime-Robotics-Student-Society/sailing-robot.git
 
 # Resolve dependencies with rosdep
 cd ~/sailing-robot
