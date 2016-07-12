@@ -1,5 +1,7 @@
 #!/bin/sh 
 
+cd ~
+
 # Install needed packages
 sudo apt-get --assume-yes install dphys-swapfile
 
