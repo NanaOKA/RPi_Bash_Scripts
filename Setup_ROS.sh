@@ -40,7 +40,7 @@ sudo mkdir ~/ros_catkin_ws
 cd ~/ros_catkin_ws
 
 # Fetch core packages to be built
-rosinstall_generator mavros mavros_extras hector_slam hector_localization hokuyo_node ros_control joystick_drivers ros_comm geometry_msgs sensor_msgs rosserial_python rosserial_msgs diagnostic_msgs --rosdistro indigo --deps --wet-only --exclude roslisp --tar > indigo-ros_comm-wet.rosinstall
+sudo rosinstall_generator mavros mavros_extras hector_slam hector_localization hokuyo_node ros_control joystick_drivers ros_comm geometry_msgs sensor_msgs rosserial_python rosserial_msgs diagnostic_msgs --rosdistro indigo --deps --wet-only --exclude roslisp --tar > indigo-ros_comm-wet.rosinstall
 wstool init src indigo-ros_comm-wet.rosinstall
 
 # Resolve dependencies with rosdep
