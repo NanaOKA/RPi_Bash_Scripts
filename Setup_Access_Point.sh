@@ -58,14 +58,14 @@ sudo touch /etc/hostapd/hostapd.conf
 # Contents of hostapd config file
 sudo echo "interface=wlan0" >> /etc/hostapd/hostapd.conf
 sudo echo "driver=nl80211" >> /etc/hostapd/hostapd.conf
-sudo echo "ssid=UoS_Sailing_Robot" >> /etc/hostapd/hostapd.conf
+sudo echo "ssid=Demo_Sensor" >> /etc/hostapd/hostapd.conf
 sudo echo "hw_mode=g" >> /etc/hostapd/hostapd.conf
 sudo echo "channel=6" >> /etc/hostapd/hostapd.conf
 sudo echo "macaddr_acl=0" >> /etc/hostapd/hostapd.conf
 sudo echo "auth_algs=1" >> /etc/hostapd/hostapd.conf
 sudo echo "ignore_broadcast_ssid=0" >> /etc/hostapd/hostapd.conf
 sudo echo "wpa=2" >> /etc/hostapd/hostapd.conf
-sudo echo "wpa_passphrase=Autonomous_Sailing" >> /etc/hostapd/hostapd.conf
+sudo echo "wpa_passphrase=nana" >> /etc/hostapd/hostapd.conf
 sudo echo "wpa_key_mgmt=WPA-PSK" >> /etc/hostapd/hostapd.conf
 sudo echo "rsn_pairwise=CCMP" >> /etc/hostapd/hostapd.conf
 # Commands below specific to RPi 3
